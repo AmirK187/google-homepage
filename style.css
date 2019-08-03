@@ -5,6 +5,7 @@
 }
 
 h1{
+    display: flex;
     color: red;
     cursor: pointer;
 }
@@ -28,9 +29,10 @@ li a:hover{
     color: blue;
 }
 .google{
+    
     font-size: 45px;
     width: 545px;
-    margin: 0px 0px 0px 415px;
+    margin: 0px auto;
     padding: 45px;
 }
 
@@ -42,7 +44,7 @@ li a:hover{
 .search-window{
     width: 100%;
     margin: 10px;
-    padding: 5px;
+    padding: 5px 8px 0px 20px;
 }
 
 .search-btn{
